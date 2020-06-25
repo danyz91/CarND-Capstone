@@ -9,7 +9,7 @@ label_id_map = {0: "Unknown", 1: "Red", 2: "Yellow", 3: "Green"}
 
 class TLClassifier(object):
     def __init__(self):
-        PATH_TO_MODEL = "/home/student/CarND-Capstone/ros/model_weights.pb"
+        PATH_TO_MODEL = "../../model_weights.pb"
         self.threshold = 0.5
         self.debug = False
 
